@@ -2,7 +2,7 @@ pipeline {
     agent {
         docker {
             image 'python'
-            label 'generic'
+            
         } //docker
     } //agent
     stages {
